@@ -2,6 +2,14 @@
 
 ## 사용 방법
 
+### naver Developer
+naverDev폴더 -> readme.md 확인
+
+### visualStudio code 
+vscode폴더 -> readme.md 확인
+
+### Dir Script
+
 * 프로젝트 구조는 다음과 같음
     * papagoTransfer
         * main.py

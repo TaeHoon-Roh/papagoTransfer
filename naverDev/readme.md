@@ -8,5 +8,11 @@
 ![ex_screenshot](./IMG_0012.jpg)
 ![ex_screenshot](./image2.png)
 ![ex_screenshot](./image3.png)
+
+![ex_screenshot](./image4.png)
+* 잘 안되면 내 애플리케이션에서 비로그인 오픈 API 당일 사용량 확인
+* 10000자 넘어가면 오류남
+* 애플리케이션을 이름만 바꿔서 여러개 만들어도 가능
+    * 이 경우는 키가 다르기 때문에 키를 바꿔줘야 함
     
     

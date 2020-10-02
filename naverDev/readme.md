@@ -1,6 +1,16 @@
 # Naver Developer 사용법
 
-## https://developers.naver.com/main/ 접속
+## Papago 유료 관련
+
+https://www.ncloud.com/product/aiService/papagoNmt
+
+## Papago Algorithm 관련
+
+https://news.v.daum.net/v/20161110112405315
+
+## Developer 활용 방법
+
+### https://developers.naver.com/main/ 접속
 ![ex_screenshot](./image1.png)
 ![ex_screenshot](./IMG_0009.jpg)
 ![ex_screenshot](./IMG_0010.jpg)

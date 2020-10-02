@@ -2,7 +2,7 @@ import urllib.request
 import requests
 
 def readNaverKey():
-    f = open('naverKey')
+    f = open('naverKey.txt')
     buffer = f.readlines()
     resultBuffer = []
     for line in buffer:

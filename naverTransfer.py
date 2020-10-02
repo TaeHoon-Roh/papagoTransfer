@@ -33,8 +33,9 @@ def useTransferRequest(myText):
 
 
 def useTransfer(myText):
-    client_id = "vwgan_9XCoB3MeK4wqEZ"
-    client_secret = "Fa8lOIxI0W"
+    c_id, c_secret = readNaverKey()
+    client_id = c_id
+    client_secret = c_secret
     encText = urllib.parse.quote(myText)
     data = "source=en&target=ko&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"

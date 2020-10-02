@@ -1,9 +1,22 @@
 import urllib.request
 import requests
 
+def readNaverKey():
+    f = open('naverKey')
+    buffer = f.readlines()
+    resultBuffer = []
+    for line in buffer:
+        if line == '\n':
+            continue
+        text = line.replace('\n', '')
+        resultBuffer.append(text)
+
+    return resultBuffer[0], resultBuffer[1]
+
 def useTransferRequest(myText):
-    client_id = "EaBL8hrr09nHEHiI3JGt"
-    client_secret = "8SpAPuQEXb"
+    c_id, c_secret = readNaverKey()
+    client_id = c_id
+    client_secret = c_secret
     encText = urllib.parse.quote(myText)
     data = "source=en&target=ko&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"

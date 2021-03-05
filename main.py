@@ -34,7 +34,7 @@ def transResult(readHeader, inputBuffer, setCount):
         count = 0
 
         for line in inputBuffer:
-            print("InputBuffer Check : ", inputBuffer, line, len(line))
+            # print("InputBuffer Check : ", inputBuffer, line, len(line))
 
             count += len(line)
             totalCount += len(line)
@@ -74,7 +74,7 @@ def transResult(readHeader, inputBuffer, setCount):
             break
         else:
             inputBuffer = str(transTextResult + '\n').split('\n')[:len(inputBuffer)]
-        print("Copy InputBuffer Check : ", inputBuffer)
+        # print("Copy InputBuffer Check : ", inputBuffer)
 
     return totalCountBuffer, sendResultBuffer, transResultBuffer
 

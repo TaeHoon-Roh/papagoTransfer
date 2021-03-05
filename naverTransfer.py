@@ -13,12 +13,13 @@ def readNaverKey():
 
     return resultBuffer[0], resultBuffer[1]
 
-def useTransferRequest(myText):
+def useTransferRequest(sourceLang, targetLang, myText):
     c_id, c_secret = readNaverKey()
     client_id = c_id
     client_secret = c_secret
     encText = urllib.parse.quote(myText)
-    data = "source=en&target=ko&text=" + encText
+    # data = "source=en&target=ko&text=" + encText
+    data = "source=" + sourceLang + "&target=" + targetLang + "&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"
 
     headers = {
